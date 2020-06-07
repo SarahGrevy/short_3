@@ -1,9 +1,8 @@
 from os import environ
 SESSION_CONFIG_DEFAULTS = dict(real_world_currency_per_point=1, participation_fee=0)
 import random
-apps = ['appy']
-random.shuffle(apps)
-app_seq = ['Welcome']
+
+app_seq = ['appy']
 for app in apps:
     app_seq.append(app)
 app_seq.append('Demographic')
