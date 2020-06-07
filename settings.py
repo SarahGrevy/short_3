@@ -1,7 +1,7 @@
 from os import environ
 SESSION_CONFIG_DEFAULTS = dict(real_world_currency_per_point=1, participation_fee=0)
 import random
-apps = ['Amazon_relief_19']
+apps = ['appy']
 random.shuffle(apps)
 app_seq = ['Welcome']
 for app in apps:
