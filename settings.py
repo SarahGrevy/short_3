@@ -4,7 +4,6 @@ import random
 
 app_seq = ['appy']
 
-app_seq.append('Demographic')
 
 SESSION_CONFIGS = [dict(name='Random_Order_1', num_demo_participants=2, app_sequence=app_seq)]
 LANGUAGE_CODE = 'en'
