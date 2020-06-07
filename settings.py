@@ -7,7 +7,7 @@ app_seq = ['Welcome']
 for app in apps:
     app_seq.append(app)
 app_seq.append('Demographic')
-app_seq.append('Debrief')
+
 SESSION_CONFIGS = [dict(name='Random_Order_1', num_demo_participants=2, app_sequence=app_seq)]
 LANGUAGE_CODE = 'en'
 REAL_WORLD_CURRENCY_CODE = 'USD'
