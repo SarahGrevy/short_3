@@ -3,8 +3,7 @@ SESSION_CONFIG_DEFAULTS = dict(real_world_currency_per_point=1, participation_fe
 import random
 
 app_seq = ['appy']
-for app in apps:
-    app_seq.append(app)
+
 app_seq.append('Demographic')
 
 SESSION_CONFIGS = [dict(name='Random_Order_1', num_demo_participants=2, app_sequence=app_seq)]
